@@ -1,0 +1,13 @@
+#This code will be printed for each line in lines_in.txt
+#Use @1@ to echo the first value in each line, @2@ for the second value, etc.
+#use @$@ for the 'saved keyword'.
+#use @#@ for the count (Starting from 1).
+[
+    'name' => '@1@',
+    'personal_id' => @#@,
+    'date_of_birth' => '@2@',
+    'talents' => '@3@',
+    'wage' => '@4@',
+    'category' => '@$@',
+    'start_date' => '@5@',
+],
