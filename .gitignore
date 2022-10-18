@@ -1,6 +1,5 @@
 # exclude all
 /*
-/out
 
 # Other Files.
 !README.md
