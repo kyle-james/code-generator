@@ -1,0 +1,19 @@
+# exclude all
+/*
+
+# Other Files.
+!README.md
+
+# Include git important files
+!.gitmodules
+!.gitignore
+!.github/
+
+# Include Important Folders
+!src/
+
+# Inlude Important Files
+!app.config
+!code_in.txt
+!code_out.txt
+!lines_in.txt
