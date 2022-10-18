@@ -1,7 +1,7 @@
 # code-generator
 A highly customizable Java based code generator I created to manually fill databases quicker, and to get a better understanding of Configuration
 
-#Usage:
+## Usage:
 
 The program is contained within the `CodeGenerator-{version}.jar` file. Simply execute the `.jar` in an empty directory
 and 3 files will be generated. `app.config`, `code_configuration.txt`, and `input.txt`. They are essential for the program to operate.
@@ -12,7 +12,7 @@ Once the program successfully executes, a new file `output.txt` will be generate
 
 Any errors should throw a popup with the stack trace.
 
-#Input
+## Input
 `input.txt` is the input file. They MUST MATCH the schema of `code_generation.txt`. If you do not, you WILL get errors. Here's a few things to take note of.
 * `Comments` - By starting a line with `#`, it stops the program from reading that line. Note: This works on all 3 input files used by the program.
 * `Saved Word` - By starting a line with `$`, it tells the program to remember the entire contents of that line. This is if you need that one specific string referenced for every input line.
@@ -21,7 +21,7 @@ Any errors should throw a popup with the stack trace.
 * `Booleans` - If you want to use a boolean in `input.txt`, you can use `f`, `t`, `false`, and `true`. All will be accepted.
 
 
-#Configuration 
+## Configuration 
 `app.config` contains some simple configurations. We will quickly go over what each one does.
 * `separator` (Default: ,) - Indicates the symbol/character you want to identify the end of a variable, and start of the next variable.
 * `variable_indicator` (Default: @) - This is a unique identifier that is used to wrap/denote variables. Similar to a '$' when it comes to PHP variables, except in this case, the `variable_indicator` is present at both the beginning and end of a variable, and instead of variable names, we use indexes (more in the 'Code Configuration' section).
@@ -29,7 +29,7 @@ Any errors should throw a popup with the stack trace.
 * `count_start` (Default: 1) - The value of this variable determines at which unique identification number the program will begin at. It's referenced by a for loop that begins at the set value. It does not offset the amount of lines processed. Just the number the for loop starts at.
 * `trim_values` (Default: false) - WARNING! This part is not fully implemented yet. Results are not guaranteed.
 
-#Code Configuration
+## Code Configuration
 `code_configuration.txt` is the template for what you want the output of EACH LINE to look like. Along with some information, it includes some example data for us to work with. Let's go through the uncommented lines one by one.
 * `[` - This one is easy to explain. At the beginning of every line, print a `[`.
 * `'name' => '@1@',` - This one is a little more complicated. It contains a variable. In this program, as mentioned earlier, variables in this file are wrapped in `variable_indicators` to denote that they're supposed to be filled with information from `input.txt`. The `1` means that it wants the first value (all the text before the first comma) from the current line in `input.txt`.
