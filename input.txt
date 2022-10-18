@@ -1,0 +1,14 @@
+#All Data was gathered via the 'random page' button on wikipedia. I clicked until.
+#I stumbled on a page of a living person with enough info to fill in the example fields.
+$People Famous Enough to Have a Wikipedia Page
+Hannah Barbera,1957-07-07,Marketing/Animation,20.00,2022-07-20,null
+Jeff Bezos,1964-01-12,Software/Business,5.02,2022-07-19,t
+Jeff Goldblum,1952-10-22,Arts/Acting,20.80,2022-07-17,f
+Dolly Parton,1946-01-19,Performing/Philanthropy,50.90,2022-07-02,false
+Natasha Trethewey,1966-04-26,Writing/Poetry,20.00,2022-07-04,true
+Rachita Ram,1992-10-03,Acting/Singing,15.50,2022-06-30,null
+Justin Tredeau,1971-12-25,Politician/Scholar,3.00,2022-06-12,t
+Liam McIntyre,1982-02-08,Actor/Media,55.30,2022-08-30,f
+Steve Turner,1962-10-24,Trades/Unions,48.33,2022-03-03,f
+René Haselbacher,1977-09-15,Racing/Bicycling,10.00,2022-04-20,null
+Sabine Heitling,1987-07-02,Athletics/Racing,20.65,2022-07-30,null

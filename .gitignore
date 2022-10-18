@@ -14,6 +14,6 @@
 
 # Inlude Important Files
 !app.config
-!code_in.txt
-!code_out.txt
-!lines_in.txt
+!code_configuration.txt
+!output.txt
+!input.txt
